@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width:20% ;
+    align-items: centre;
+    display:flex ;
+    justify-content: center;
+}
+.logo img{
+    width: 33%;
+    border: 40px;
+    border-radius: 50px;
+}
+.nav-list{
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.nav-list li{
+list-style: none;
+padding: 20px 30px;
+
+}
+.nav-list li a{
+text-decoration: none;
+color: rgb(245, 254, 254);
+}
+.nav-list li a:hover{
+    color: aqua;
+
+}
+.rightnav{
+
+    width: 50%;
+    text-align: right;
+    padding: 0PX 23PX;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+     border: 3px solid green;
+     border-radius: 10px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.6) url('../img/ashutosh.jpeg');
+    background-size: cover;
+     background-blend-mode: darken;
+        }  
+        .firstclass{
+            width: 70%;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            height: 70vh;
+        }
+        .secondclass{
+            width: 30%;
+        }
+        .box-main{
+            display: flex;
+            justify-content: center;
+            color: aliceblue;
+           align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           max-width: 50%;
+           margin: auto;
+           height: 80%;
+        }
+       
+        .secondclass img{
+            width: 200px;
+            border: 4PX solid white;
+            border-radius: 50px;
+            margin: auto;
+            display: flex;
+            margin: auto;
+            height: 30vh;
+
+        }
+        .firstsection{
+            height: 100vh;
+        }
+        .text-big{
+            font-size: 25px;
+        }
+        .text-small{
+            font-size: 18px;
+        }
+        .btn{
+            padding: 8px 20px;
+            border: 4PX solid white;
+            border-radius: 10px;
+            margin:7px 3px;
+            background: none;
+            cursor: pointer;
+            color: rgb(221, 221, 228);
+        }
+        .paras {
+            text-align: center;
+            color: rgb(15, 15, 56);
+            justify-content: center;
+            /* display: flex; */
+            width: 82%;
+         padding: 10px 65px;
+        }
+        .section {
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+            width: 1150px;
+            padding: 20px 46px;
+            font-size: smaller;
+            background-size: auto;
+            margin: auto;
+            max-width: 80%;
+            font-family: 'Ubuntu', sans-serif;
+            
+        }
+        .sectionleft {
+            
+            flex-direction: row-reverse;
+           
+        }
+        img.imagefluid {
+            width: 71%;
+            height: 71%;
+        }
+        .secsubtag{
+           
+            text-align: left;
+        }
+        .sectag{
+            
+            text-align: left;
+        }
+        .thumbnail img{
+            
+            border: 2px solid black;
+            margin-top: 19px ;
+        }.tumbnail {
+            WIDTH: fit-content;
+            HEIGHT: fit-content;
+        }
